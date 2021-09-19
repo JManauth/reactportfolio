@@ -9,12 +9,12 @@ const HeaderComponent = () => {
       
        <div className="header">
           <div>
-            <h1>Jafet Manauth</h1>
+            <Link className="name" to="/">Jafet Manauth</Link>
           </div>
           <div className="header-links">
-            <Link to='/projects'>Projects</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/projects' className="header-link">Projects</Link>
+            <Link to='/about'className="header-link">About</Link>
+            <Link to='/contact'className="header-link">Contact</Link>
           </div>
         </div>
        
