@@ -9,11 +9,11 @@ const HeaderComponent = () => {
       
        <div className="header">
           <div>
-            <Link className="name" to="/">Jafet Manauth</Link>
+            <Link className="name" to="/about">Jafet Manauth</Link>
           </div>
           <div className="header-links">
-            <Link to='/projects' className="header-link">Projects</Link>
             <Link to='/about'className="header-link">About</Link>
+            <Link to='/projects' className="header-link">Projects</Link>
             <Link to='/contact'className="header-link">Contact</Link>
           </div>
         </div>
